@@ -84,6 +84,8 @@
 
 ;; Identifiers
 
+(identifier) @variable
+
 (assignment
   (identifier) @method
   (function_expression))
@@ -101,8 +103,6 @@
 (variable_declaration
   (identifier) @method
   (function_expression))
-
-(identifier) @variable
 
 ;; Literals
 
