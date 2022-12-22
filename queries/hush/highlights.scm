@@ -117,8 +117,3 @@
 (number) @number
 
 (string) @string @spell
-
-;; Bash injection
-
-((shell_command) @injection.content
-  (#set! injection.language "bash"))
